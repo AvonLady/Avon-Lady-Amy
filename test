@@ -1,0 +1,27 @@
+!!! 5
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}
+    %meta{:'http-equiv' => "X-UA-Compatible", content: "IE=edge,chrome=1"}
+    %title AFNetworking - a delightful networking framework for iOS and OSX
+    %link{rel: "author", href: "https://plus.google.com/106751358503565042647/posts/"}
+    %link{rel: "license", href: "http://opensource.org/licenses/mit-license", title: "MIT License"}
+    %link{rel: "stylesheet", href: "/css/screen.css", type: 'text/css', media: "screen", charset: "utf-8"}
+
+    %meta{property: "og:title", content: "AFNetworking"}
+    %meta{property: "og:url", content: "http://afnetworking.com"}
+    %meta{property: "og:image",  content: "http://afnetworking.com/images/logo.png"}
+    %meta{property: "og:site_name", content: "AFNetworking"}
+    %meta{property: "og:description", content: "A Delightful Networking Framework for iOS and OSX"}
+
+  %body
+    = yield
+
+    %footer
+      :markdown
+        AFNetworking was created by [Mattt Thompson](http://mattt.me) and is released under the [MIT License](http://opensource.org/licenses/mit-license).
+
+    %a#github.ribbon{href: "https://github.com/AFNetworking/AFNetworking"}
+      %img{src: "/images/ribbon.png", alt: "Fork me on GitHub"}
+
+    %script{:type => "text/javascript", :src => "http://static.matttthompson.com/mint/?js" }
